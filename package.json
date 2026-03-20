@@ -1,0 +1,22 @@
+{
+  "name": "@aiagentkarl/weather-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for global weather, forecasts, air quality via Open-Meteo — free, no API key",
+  "main": "index.js",
+  "bin": {
+    "weather-mcp-server": "./index.js"
+  },
+  "keywords": [
+    "mcp",
+    "weather",
+    "forecast",
+    "open-meteo",
+    "ai-agent"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
